@@ -1,0 +1,98 @@
+body{
+    background: hsl(225, 100%, 94%);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('../images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+
+.content{
+    margin: 10vh 0;
+    width: 25vw;
+    height: 54vh;
+    background: white;
+    border: 0;
+    border-radius: 10px;
+}
+
+.imageHero{
+    border-radius: 10px 10px 0 0px;
+    width: 25vw;
+}
+
+.contentPayment{
+    margin: 0rem 0;
+    padding: 3rem 0;
+    height: 42vh;
+    width: 25vw;
+    background: white;
+    border-radius: 0 0 10px 10px;
+}
+
+.title{
+    text-align: center;
+}
+
+.describe{
+    text-align: center;
+    font-weight: 400;
+    color:rgba(128, 128, 128, 0.555);
+}
+
+.plans{
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(225, 100%, 98%);
+    width: 20vw;
+    height: 8vh;
+    margin: 1.45rem auto;
+    border-radius: 10px;
+    align-items: center;
+
+}
+
+.plan{
+    display: flex;
+    flex-direction: column;
+}
+
+.titlePlan{
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+.change{
+    color: hsl(245, 75%, 52%);
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.completed{
+    display: flex;
+    flex-direction: column;
+}
+
+.payment{
+    background-color: hsl(245, 75%, 52%);
+    margin: 2rem auto;
+    width: 20vw;
+    border: 0;
+    border-radius: 10px;
+    height: 8vh;
+    color: white;
+    font-weight: 700;
+}
+
+.cancel{
+    color:  hsl(223, 47%, 23%);
+    text-align: center;
+    font-weight: 800;
+    cursor: pointer;
+}
